@@ -1,164 +1,122 @@
 ---
 permalink: /
-title: "David Ponce - NLP Researcher"
-excerpt: "Research in Natural Language Processing, Sustainability, and Green AI"
+title: "Harritxu Gete - NLP Researcher"
+excerpt: "Research in Natural Language Processing, Context-Aware MT, and Basque Language Technologies"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
 <span class='anchor' id='about-me'></span>
-I work in the **Speech and Natural Language Technologies** department at Vicomtech, specializing in **Natural Language Generation** and **Machine Translation**, while pursuing my PhD. My research bridges computational linguistics and sustainability. I focus on optimizing language model training to enhance performance for low-resource languages while reducing energy consumption, contributing to the broader **Green AI** initiative. My work aims to make NLP technologies **accessible, equitable, and environmentally sustainable**.  
-<a href='https://scholar.google.com/citations?user=pFnvtlgAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
+I am a PhD graduate and researcher in the **Speech and Language Technologies** department at **Vicomtech**, specializing in **Neural Machine Translation (NMT)**, with a focus on **document-level and context-aware translation**. I defended my PhD thesis, *"Contributions to Document-Level Neural Machine Translation"*, in March 2025 at the University of the Basque Country (UPV/EHU). My research explores linguistic phenomena beyond sentence boundaries, especially in low-resource languages such as Basque. I work across data curation, model development, and evaluation—contributing to accessible and equitable language technologies.
+<a href='https://scholar.google.com/citations?user=_yYx2T4AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
+<a href='https://www.linkedin.com/in/harritxu-gete-ugarte-424a95103/'><img src="https://img.shields.io/badge/LinkedIn-Profile-blue?logo=LinkedIn&style=flat-square"></a>
 
 ---
 
 # 🔥 News
-- *2024.11*: &nbsp;🎉🎉 Published **"Automating Easy Read Text Segmentation"** at EMNLP 2024 Findings ([Read Paper](https://aclanthology.org/2024.findings-emnlp.694)).  
-- *2024.08*: &nbsp;🎉🎉 Published **"Split and Rephrase with Large Language Models"** at ACL 2024 ([Read Paper](https://aclanthology.org/2024.acl-long.622)).  
-- *2023.07*: &nbsp;🎉🎉 Published **"Unsupervised Subtitle Segmentation with Masked Language Models"** at ACL 2023 ([Read Paper](https://aclanthology.org/2023.acl-short.67)).
+- *2025.05*: &nbsp;📘 Accepted: **"Machine Translation in Industrial Domains"** at SEPLN 2025.
+- *2025.03*: &nbsp;🎓 Successfully defended my PhD thesis: **"Contributions to Document-Level Neural Machine Translation"**.  
+- *2024.12*: &nbsp;✨ Presented **"Does Context Help Mitigate Gender Bias in NMT?"** at EMNLP 2024.  
 
 ---
 
 # 📖 Education
-- **Ph.D. in Natural Language Processing (2022–Present)**  
+
+- **Ph.D. in Language Analysis and Processing (2020–2025)**  
+  University of the Basque Country (UPV/EHU) & Vicomtech Foundation  
+  - *Cum Laude* distinction  
+
+- **M.A. in Language Analysis and Processing (2017–2018)**  
   University of the Basque Country (UPV/EHU)  
-  - Thesis: *Optimization, Adaptation, and Applications of Large Language Models*  
+  - Awarded best academic record  
 
-- **M.Sc. in Artificial Intelligence (2019–2020)**  
-  University of Leeds  
-  - Graduated with Distinction  
-
-- **B.Sc. in Computer Science (2015–2019)**  
-  University of Malaga  
+- **B.Sc. in Mathematics (2012–2016)**  
+  University of the Basque Country (UPV/EHU)
 
 ---
 
 # 🏢 Employment History
 
-### **Vicomtech – Researcher in Speech and Natural Language Technologies**  
+### **Vicomtech – Researcher in Speech and Language Technologies**  
 *San Sebastián, Spain*  
-*2020 – Present*  
-- Conduct research and development in **Natural Language Generation**, **Machine Translation**, and **Text Simplification** for underrepresented languages.  
-- Lead and contribute to cutting-edge projects, including **ADAGIO**, **ADAPT-IA**, and **IRAZ**, focusing on optimizing language models and advancing **Green AI** methodologies.  
-- Collaborate on national and international initiatives to improve accessibility and sustainability in NLP.  
-- Supervise and mentor interns and junior researchers in the Speech and Natural Language Technologies department.
+*2018 – Present*  
+- Lead and contribute to cutting-edge **context-aware NMT** projects including **TANDO**, **MLNMT**, and **mintzAI**.  
+- Collaborate on government and industry-funded initiatives to develop **machine translation systems** tailored to Basque and Spanish.  
+- Conduct empirical research on **gender bias**, **discourse-level phenomena**, and **data augmentation** for low-resource settings.
+
+### **Senddo Servicios Avanzados – Data Analyst Intern**  
+*San Sebastián, Spain*  
+*2015 – 2016*  
+- Performed data preprocessing and analysis tasks for business intelligence solutions.
+
+---
+
+# 📂 Selected Projects
+
+- **ADAPT-IA** – Adaptive AI in Language Technologies for industrial applications  
+- **TANDO** – Document-level NMT methods and corpora  
+- **mintzAI** – Neural speech translation  
+- **MLNMT** – Custom NMT systems for MondragonLingua  
+- **NMT@GV** – NMT service for the Basque Government  
+- **COMETA** – Technical multilingual communication with MT  
+- **EJIETL** – Neural language technologies for the Basque Government  
+
+---
+
+# 📝 Selected Publications
+
+- Gete & Etchegoyhen (2024). *Does Context Help Mitigate Gender Bias in Neural Machine Translation?*  
+  **Findings of EMNLP 2024**, Miami, USA.
+
+- Gete et al. (2024). *TANDO+: Corpus and Baselines for Document-level MT in Basque-Spanish and Basque-French*.  
+  **Preprint**, Research Square.
+
+- Ponce, Gete et al. (2024). *Vicomtech@WMT 2024: Translation into Low-Resource Languages of Spain*.  
+  **WMT 2024**, Miami, USA.
+
+- Gete, Etchegoyhen et al. (2022). *TANDO: A Corpus for Document-level MT*.  
+  **LREC 2022**, Marseille, France.
+
+- Gete & Etchegoyhen (2022). *Making the Most of Comparable Corpora in NMT: A Case Study*.  
+  **Language Resources & Evaluation**, Springer.
+
+- Gete et al. (2023). *What Works When in Context-aware Neural Machine Translation?*  
+  **EAMT 2023**, Tampere, Finland.
+
+- Etchegoyhen, Arzelus, Gete et al. (2021). *MINTZAI-ST: Corpus and Baselines for Basque-Spanish Speech Translation*.  
+  **IberSPEECH 2021**
 
 ---
 
 # 🛠 Skills
 
-### **Research Skills**
-- Large Language Models Optimization
-- Neural Machine Translation (NMT)
-- Text Simplification
-- Machine Translation Quality Estimation
-- Green AI methodologies for sustainable model training
+### **Research Areas**
+- Context-aware Neural Machine Translation  
+- Low-resource language modeling (Basque)  
+- Gender bias mitigation in NMT  
+- Data augmentation and corpus development  
 
 ### **Technical Skills**
-- **Programming Languages:** Python, Golang, C++, TypeScript, HTML, CSS, SQL 
-- **Frameworks & Tools:** PyTorch, llama.cpp, LlamaIndex, MarianNMT, COMET, FastAPI, Angular
-- **Specialized Tools:** Energy usage profiling tools (e.g., CodeCarbon), lightweight deployment frameworks
-
-### **Languages**
-- Spanish: Native
-- English: Full Professional Proficiency
-- Basque: Professional Proficiency
+- **Languages:** Python  
+- **Frameworks/Tools:** MarianNMT, PyTorch, fairseq
+- **Languages spoken:**  
+  - **Basque:** Native (C1 certificate)  
+  - **Spanish:** Native  
+  - **English:** Advanced (C1 certificate)
 
 ---
 
-# 📝 Publications
+# 💬 Outreach & Service
 
-### 2024  
-- **Split and Rephrase with Large Language Models**  
-  David Ponce, Thierry Etchegoyhen, Jesús Calleja, Harritxu Gete  
-  *ACL 2024* ([Paper](https://aclanthology.org/2024.acl-long.622))  
-
-- **Vicomtech@WMT 2024: Shared Task on Translation into Low-Resource Languages of Spain**  
-  David Ponce, Harritxu Gete, Thierry Etchegoyhen  
-  *WMT 2024* ([Paper](https://aclanthology.org/2024.wmt-1.91))  
-
-- **Automating Easy Read Text Segmentation**  
-  Jesús Calleja, Thierry Etchegoyhen, Antonio David Ponce Martínez  
-  *EMNLP 2024 Findings* ([Paper](https://aclanthology.org/2024.findings-emnlp.694))  
-
-### 2023  
-- **Unsupervised Subtitle Segmentation with Masked Language Models**  
-  David Ponce, Thierry Etchegoyhen, Víctor Ruiz  
-  *ACL 2023* ([Paper](https://aclanthology.org/2023.acl-short.67))  
-
-- **Learning from Past Mistakes: Quality Estimation from Monolingual Corpora and Machine Translation Learning Stages**  
-  Thierry Etchegoyhen, David Ponce  
-  *MT Summit XIX* ([Paper](https://aclanthology.org/2023.mtsummit-research.8))  
-
-- **IRAZ: Easy-to-Read Content Generation via Automated Text Simplification**  
-  Thierry Etchegoyhen, Jesús Calleja, David Ponce  
-  *SEPLN 2023* ([Paper](https://ceur-ws.org/Vol-3516/paper13.pdf))  
-
-### 2022  
-- **TANDO: A Corpus for Document-level Machine Translation**  
-  Harritxu Gete, Thierry Etchegoyhen, David Ponce, et al.  
-  *LREC 2022* ([Paper](https://aclanthology.org/2022.lrec-1.324))  
-
-### 2021  
-- **Online Learning over Time in Adaptive Neural Machine Translation**  
-  Thierry Etchegoyhen, David Ponce, Harritxu Gete, Víctor Ruiz  
-  *RANLP 2021* ([Paper](https://aclanthology.org/2021.ranlp-1.47))  
-
-- **ITAI: Adaptive Neural Machine Translation Platform**  
-  Thierry Etchegoyhen, David Ponce, Harritxu Gete, Víctor Ruiz  
-  *SEPLN 2021*  ([Paper](https://ceur-ws.org/Vol-2968/paper13.pdf))
+- **Mentor** in *Inspira STEAM* (2023–24, 2024–25)  
+- **Speaker** in *Emakumeak Zientzian 2025* and EiTB's *Teknopolis*  
+- **Contributions** to Itzuli and Batua machine translation systems
 
 ---
 
-# 📂 Projects
-
-### **2024**
-- **BIKAIN**  
-  Research and development of a high-reliability automatic quality estimation system to identify translation errors at the sentence, word, terminology, and context levels in an integrated manner.
-
-- **IKUN**  
-  Research and development of Large Multimodal Models for industrial domain adaptation, facilitating the generation of synthetic images and time series to enhance quality assurance processes. Includes multimodal conversational interfaces for industrial dashboards and knowledge bases.
-
-- **LiveAI**  
-  Development of AI services for accessibility and audiovisual translation, enabling real-time transcription, translation, and spoken interpretation (dubbing) of live events.
-
-### **2023**
-- **ADAGIO**  
-  Research and development of a system for automatic text generation adaptable to specific domains using Artificial Intelligence technologies.
-
-- **ADAPT-IA**  
-  Research and development of adaptive AI technologies and MLOps applied to Basque language technologies, focusing on industrial integration, continuous deployment of neural models, and exploring methodologies to optimize maintenance and adaptation.
-
-- **IACODE**  
-  Development of standardized code generation from existing code following MISRA technical programming guidelines, automating the process using generative AI models specialized in code generation.
-
-### **2022**
-- **LIDO**  
-  Research and development of a system for the optimization of multilingual linguistic data using Artificial Intelligence technologies.
-
-- **IRAZ**  
-  Development of an easy-to-read solution through automated text simplification, aimed at improving accessibility for people with reading difficulties.
-
-### **2021**
-- **STREAMS**  
-  Development of a cloud-based platform integrating AI-powered transcription, translation, automatic subtitling, and speech synthesis services in multiple languages (Basque, Spanish, French, and English). The platform enhances business processes across various sectors.
-
-- **IKA**  
-  Design, development, validation, and integration of an automatic translation quality estimation system to address challenges in the translation market and multilingual content generation.
-
-### **2020**
-- **TANDO**  
-  Research and development of document-level neural machine translation systems for Basque-Spanish, including fine-grained evaluations of gender and contextual phenomena.  
-
-- **ITAI**  
-  Design, development, validation, and integration of a continuous learning system for neural machine translation, aimed at addressing challenges in multilingual content generation.
-
+📫 **Contact:**  
+📧 harritxu.gete@gmail.com  
+📱 +34 688 845 303  
+🌐 [LinkedIn](https://www.linkedin.com/in/harritxu-gete-ugarte-424a95103/)

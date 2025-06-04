@@ -16,6 +16,7 @@ I am a PhD graduate and researcher in the **Speech and Language Technologies** d
 ---
 
 # 🔥 News
+- *2025.06*: &nbsp;📘 Accepted: **"TANDO+: Corpus and Baselines for Document-level Machine Translation in Basque-Spanish and Basque-French"** at Language Resources and Evaluation.
 - *2025.05*: &nbsp;📘 Accepted: **"Machine Translation in Industrial Domains"** at SEPLN 2025.
 - *2025.03*: &nbsp;🎓 Successfully defended my PhD thesis: **"Contributions to Document-Level Neural Machine Translation"**.  
 - *2024.12*: &nbsp;✨ Presented **"Does Context Help Mitigate Gender Bias in NMT?"** at EMNLP 2024.  
